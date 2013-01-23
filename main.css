@@ -1,0 +1,10 @@
+ /* reset */
+ * {
+   margin: 0; padding: 0;
+ }
+/* NOTICE BOARD */
+.noticeboard { position: relative; min-height: 150px;}
+.noticeboard span { display: none; position: absolute; top: 0px; left: 0px;}
+.noticeboard strong { padding-right: 30px; display: block;}
+#notice-next { position: absolute; top: 50px; right: 10px; z-index: 100;}
+#notice-prev { position: absolute; top: 50px; right: 30px; z-index: 100;}
